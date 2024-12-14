@@ -50,8 +50,8 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task3.V10
         private void buttonDone_HEV_Click(object sender, EventArgs e)
         {
             string s = "";
-            int i = 4;
             int[,] res = ds.Calculate(mtrx);
+            int i = 4;
             for (int j = 0; j < res.GetLength(0); j++)
             {
                 s += Convert.ToString(res[i, j]) + "  ";
