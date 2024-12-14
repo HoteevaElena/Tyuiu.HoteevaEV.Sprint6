@@ -22,7 +22,7 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task1.V12
 
         private void textBoxStart_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
 
         private void buttonInfo_Click(object sender, EventArgs e)
@@ -81,6 +81,11 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task1.V12
         }
 
         private void textBoxEndText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBoxInPut_Enter(object sender, EventArgs e)
         {
 
         }

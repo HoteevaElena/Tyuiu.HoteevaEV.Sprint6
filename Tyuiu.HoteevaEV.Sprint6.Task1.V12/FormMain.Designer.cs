@@ -129,6 +129,7 @@
             groupBoxInPut.TabIndex = 2;
             groupBoxInPut.TabStop = false;
             groupBoxInPut.Text = "Ввод данных";
+            groupBoxInPut.Enter += groupBoxInPut_Enter;
             // 
             // buttonDone
             // 
