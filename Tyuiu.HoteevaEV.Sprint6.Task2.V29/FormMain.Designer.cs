@@ -248,6 +248,7 @@
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 2 | Вариант 29 | Хотеева Е. В.";
+            Load += FormMain_Load;
             groupBoxInPut.ResumeLayout(false);
             groupBoxInPut.PerformLayout();
             groupBoxTask.ResumeLayout(false);

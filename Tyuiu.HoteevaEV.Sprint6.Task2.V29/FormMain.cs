@@ -98,5 +98,10 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task2.V29
         {
             buttonDone.BackColor = Color.Red;
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
