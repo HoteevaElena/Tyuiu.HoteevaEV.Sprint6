@@ -71,7 +71,7 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task4.V22
                 if(dialogres == DialogResult.Yes)
                 {
                     System.Diagnostics.Process txt = new System.Diagnostics.Process();
-                    txt.StartInfo.FileName = "notepad.txt";
+                    txt.StartInfo.FileName = "notepad.exe";
                     txt.StartInfo.Arguments = path;
                     txt.Start();
                 }
