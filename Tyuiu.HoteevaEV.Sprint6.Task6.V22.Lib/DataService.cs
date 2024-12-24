@@ -18,7 +18,7 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task6.V22.Lib
                 }
             }
 
-            return full;
+            return full.Trim();
         }
     }
 }
