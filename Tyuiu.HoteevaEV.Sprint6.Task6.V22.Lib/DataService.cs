@@ -14,7 +14,7 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task6.V22.Lib
                 while((line = reader.ReadLine()) != null)
                 {
                     string[] mass = line.Split(" ").ToArray();
-                    full += mass[0];
+                    full += mass[0] + " ";
                 }
             }
 

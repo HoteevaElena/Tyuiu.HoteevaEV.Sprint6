@@ -12,7 +12,7 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task6.V22.Test
             string path = @"C:\DataSprint6\InPutDataFileTask6V22.txt";
 
             string wait = "MLgyapdkEPQzlIOuDWllTMRyztkPxzEVkcarVMlQunwTmf";
-            string res = ds.CollectTextFromFile("", path);
+            string res = ds.CollectTextFromFile(path);
 
             Assert.AreEqual(wait, res);
         }
