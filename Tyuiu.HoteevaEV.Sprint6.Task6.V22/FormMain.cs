@@ -42,7 +42,7 @@ namespace Tyuiu.HoteevaEV.Sprint6.Task6.V22
         private void buttonDone_Click(object sender, EventArgs e)
         {
             string s = "";
-            textBoxResult.Text = ds.CollectTextFromFile(s, openFilePath);
+            textBoxResult.Text = ds.CollectTextFromFile(openFilePath);
         }
 
         private void buttonInfo_Click(object sender, EventArgs e)
